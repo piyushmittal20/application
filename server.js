@@ -6,7 +6,7 @@ app.use('/v1', (req, res) => {
     res.json({
         "name": "Piyush",
         "age": 21,
-        "email": "piyush@mail.com"
+        "email": "piyush@mailinator.com"
     })
 })
 
