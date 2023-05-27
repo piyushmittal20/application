@@ -8,6 +8,7 @@ image:
   repository: 694889723761.dkr.ecr.ap-south-1.amazonaws.com/gitops-argocd
   pullPolicy: IfNotPresent
   version: master-45ba883
+  tag: ''
 
 imagePullSecrets: []
 nameOverride: ""
