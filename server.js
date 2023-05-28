@@ -10,6 +10,6 @@ app.use('/v1', (req, res) => {
     })
 })
 
-app.listen(5000, () => {
+app.listen(8080, () => {
     console.log('Server listening on PORT 5000...')
 })
