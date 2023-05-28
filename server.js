@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express()
 
-app.use('/v1', (req, res) => {
+app.use('/', (req, res) => {
     res.json({
         "name": "Piyush",
         "age": 21,
