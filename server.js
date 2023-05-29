@@ -7,7 +7,7 @@ app.use('/', (req, res) => {
         "name": "Piyush",
         "age": 21,
         "email": "piyush@mailinator.com",
-        "role": "SDE | Backend"
+        "role": "SDE | Frontend"
     })
 })
 
