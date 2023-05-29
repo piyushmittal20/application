@@ -7,7 +7,8 @@ replicaCount: 1
 image:
   repository: 694889723761.dkr.ecr.ap-south-1.amazonaws.com/gitops-argocd
   pullPolicy: IfNotPresent
-  version: master-757bd1e
+  tag: ""
+  # version: master-757bd1e
 
 imagePullSecrets: []
 nameOverride: ""
