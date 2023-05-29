@@ -6,7 +6,8 @@ app.use('/', (req, res) => {
     res.json({
         "name": "Piyush",
         "age": 21,
-        "email": "piyush@mailinator.com"
+        "email": "piyush@mailinator.com",
+        "role": "SDE"
     })
 })
 
